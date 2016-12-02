@@ -11,13 +11,12 @@ package teest;
  */
 public class Teest {
 
-    /**
-     * @param args the command line arguments
-     */public static float a=2;
-       private static int b=4;
 
-    public int add(){
-        return (int) (a+b);
+    public int add(int a , int b){
+        return  (a+b);
+    }
+    public int sou(int a , int b){
+        return  (a-b);
     }
     
 }
